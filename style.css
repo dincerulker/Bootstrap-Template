@@ -1,0 +1,51 @@
+.left-menu-list{
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.container-all {
+    max-width: 1600px;
+}
+
+.gallery img:hover {
+    opacity: .5;
+}
+
+.progress-skill {
+    height: 1.5rem;
+}
+
+.list-charge{
+    opacity: .7;
+}
+
+.list-charge:hover{
+    opacity: 1;
+}
+
+.contact {
+    margin-left: -.75rem;
+    margin-right: -.75rem;
+}
+
+.footer {
+    margin-left: -.75rem;
+    margin-right: -.75rem;
+}
+
+.list-blog-post>li:hover {
+    background-color: var(--bs-gray-400) ;
+}
+
+.tags>span {
+    display: inline-block;
+    background-color: var(--bs-gray-500);
+    font-size: .9rem;
+    margin-bottom: .8rem;
+    padding: 0 .5rem;
+}
+.tags>span.active {
+    background-color: var(--bs-dark);
+    color: white;
+    font-size: 1rem;
+}
